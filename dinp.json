@@ -1,0 +1,146 @@
+[
+  {
+    "model": "grows.Tata",
+    "pk": 1,
+    "fields": {
+      "plant": "tomato",
+      "name": "Tomato",
+      "minTemp": "26",
+      "maxTemp": "29",
+      "minHumi": "65",
+      "maxHumi": "85"
+    }
+  },
+  {
+    "model": "grows.Tata",
+    "pk": 2,
+    "fields": {
+      "plant": "pepper",
+      "name": "Pepper",
+      "minTemp": "25",
+      "maxTemp": "30",
+      "minHumi": "85",
+      "maxHumi": "90"
+    }
+  },
+  {
+    "model": "grows.Tata",
+    "pk": 3,
+    "fields": {
+      "plant": "onion",
+      "name": "Onion",
+      "minTemp": "16",
+      "maxTemp": "18",
+      "minHumi": "85",
+      "maxHumi": "95"
+    }
+  },
+  {
+    "model": "grows.Tata",
+    "pk": 4,
+    "fields": {
+      "plant": "roses",
+      "name": "Rose",
+      "minTemp": "25",
+      "maxTemp": "30",
+      "minHumi": "60",
+      "maxHumi": "70"
+    }
+  },
+  {
+    "model": "grows.Tata",
+    "pk": 5,
+    "fields": {
+      "plant": "lilac",
+      "name": "Lilac",
+      "minTemp": "18",
+      "maxTemp": "24",
+      "minHumi": "60",
+      "maxHumi": "70"
+    }
+  },
+  {
+    "model": "grows.Tata",
+    "pk": 6,
+    "fields": {
+      "plant": "orchid",
+      "name": "Orchid",
+      "minTemp": "20",
+      "maxTemp": "30",
+      "minHumi": "40",
+      "maxHumi": "70"
+    }
+  },
+  {
+    "model": "grows.Tata",
+    "pk": 7,
+    "fields": {
+      "plant": "ivy",
+      "name": "Ivy",
+      "minTemp": "18",
+      "maxTemp": "24",
+      "minHumi": "60",
+      "maxHumi": "70"
+    }
+  },
+  {
+    "model": "grows.Tata",
+    "pk": 8,
+    "fields": {
+      "plant": "ferns",
+      "name": "Fern",
+      "minTemp": "15",
+      "maxTemp": "22",
+      "minHumi": "40",
+      "maxHumi": "50"
+    }
+  },
+  {
+    "model": "grows.Tata",
+    "pk": 9,
+    "fields": {
+      "plant": "peppermint",
+      "name": "Peppermint",
+      "minTemp": "18",
+      "maxTemp": "21",
+      "minHumi": "40",
+      "maxHumi": "50"
+    }
+  },
+  {
+    "model": "grows.Tata",
+    "pk": 10,
+    "fields": {
+      "plant": "gourd",
+      "name": "Gourd",
+      "minTemp": "20",
+      "maxTemp": "32",
+      "minHumi": "70",
+      "maxHumi": "90"
+    }
+  },
+  {
+    "model": "grows.Tata",
+    "pk": 11,
+    "fields": {
+      "plant": "watermelon",
+      "name": "Watermelon",
+      "minTemp": "21",
+      "maxTemp": "29",
+      "minHumi": "60",
+      "maxHumi": "80"
+    }
+  },
+  {
+    "model": "grows.Tata",
+    "pk": 12,
+    "fields": {
+      "plant": "dragonfruit",
+      "name": "Dragon fruit",
+      "minTemp": "14",
+      "maxTemp": "26",
+      "minHumi": "30",
+      "maxHumi": "50"
+    }
+  }
+]

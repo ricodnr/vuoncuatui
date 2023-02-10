@@ -1,0 +1,61 @@
+{%extends 'base.html'%}
+{% load thumbnail %}
+{%block title%}Homepage{%endblock%}
+{%block content%}
+<h2>City: {{city}}</h2>
+<table>
+    <tr>
+        <th>Temperature:</th>
+        <td>&nbsp{{temp}}&nbsp&nbsp&nbsp&nbsp</td>
+        <th>Humidity:</th>
+        <td>&nbsp{{humidity}}</td>
+    </tr>
+</table>
+{%for plant in object_list%}
+
+    <div class="card">
+        <div class="card-header">
+            <table>
+                <tr>
+                    <td>{% thumbnail plant.avatar '100x100' crop='center' as im %}
+                        <img src="{{ im.url }}" width="{{ im.width }}" height="{{ im.height }}">
+                        {%endthumbnail%}
+                    </td>
+                    <td><h3>&nbsp{{plant.name}}</h3></td>
+                </tr>
+            </table>
+        </div>
+    <div class="card-body">
+        <table>
+            <tr>
+              <th></th>
+              <th>&nbsp&nbsp</th>
+              <th>Tolerance</th>
+            </tr>
+            <tr>
+              <th>Temperature:  &nbsp&nbsp</th>
+              <td> </td>
+              <td>{{plant.minTemp}} - {{plant.maxTemp}}</td>
+            </tr>
+            <tr>
+              <th>Humidity:</th>
+              <td></td>
+              <td>{{plant.minHumi}} - {{plant.maxHumi}}</td>
+            </tr>
+          </table>
+    </div>
+    <div class="card-footer">
+
+        <p>
+            <span class="font-weight-bold">
+
+            </span>
+
+        </p>
+        </div>
+    </div>
+    
+    <br />
+{%endfor%}
+{%endblock%}
+

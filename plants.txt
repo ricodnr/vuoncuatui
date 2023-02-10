@@ -1,0 +1,12 @@
+tomato--26 29--65 85--Tomato
+pepper--25 30--85 90--Pepper
+onion--16 18--85 95--Onion
+roses--25 30--60 70--Rose
+lilac--18 24--60 70--Lilac
+orchid--20 30--40 70--Orchid
+ivy--18 24--60 70--Ivy
+ferns--15 22--40 50--Fern
+peppermint--18 21--40 50--Peppermint
+gourd--20 32--70 90--Gourd
+watermelon--21 29--60 80--Watermelon
+dragonfruit--14 26--30 50--Dragon fruit
