@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     #3rd 
     'sorl.thumbnail',
+    'crispy_forms',
+    'crispy_bootstrap5',
     #Local
     'grows',
 ]
