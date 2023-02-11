@@ -2,26 +2,27 @@
 {% load thumbnail %}
 {%block title%}Homepage{%endblock%}
 {%block content%}
-<h2>City: {{city}}</h2>
+<span>City:<h2> {{city}}</h2></span>
 <table>
     <tr>
         <th>Temperature:</th>
-        <td>&nbsp{{temp}}&nbsp&nbsp&nbsp&nbsp</td>
+        <td>&nbsp{{temp}}*C&nbsp&nbsp&nbsp&nbsp</td>
         <th>Humidity:</th>
-        <td>&nbsp{{humidity}}</td>
+        <td>&nbsp{{humidity}}%</td>
     </tr>
 </table>
+<br />
 {%for plant in object_list%}
 
     <div class="card">
         <div class="card-header">
             <table>
                 <tr>
-                    <td>{% thumbnail plant.avatar '100x100' crop='center' as im %}
+                    <td>{% thumbnail plant.avatar '80x80' crop='center' as im %}
                         <img src="{{ im.url }}" width="{{ im.width }}" height="{{ im.height }}">
                         {%endthumbnail%}
                     </td>
-                    <td><h3>&nbsp{{plant.name}}</h3></td>
+                    <td><h3>&nbsp&nbsp{{plant.name}}</h3></td>
                 </tr>
             </table>
         </div>
@@ -29,18 +30,20 @@
         <table>
             <tr>
               <th></th>
-              <th>&nbsp&nbsp</th>
+              <th>&nbsp</th>
               <th>Tolerance</th>
             </tr>
             <tr>
-              <th>Temperature:  &nbsp&nbsp</th>
+              <th>Temperature: &nbsp</th>
               <td> </td>
-              <td>{{plant.minTemp}} - {{plant.maxTemp}}</td>
+              <td>{{plant.minTemp}}*C - {{plant.maxTemp}}*C &nbsp&nbsp&nbsp&nbsp</td>
+              <th>Harvest in:  &nbsp</th>
+              <td>{{plant.fintime}}</td>
             </tr>
             <tr>
               <th>Humidity:</th>
               <td></td>
-              <td>{{plant.minHumi}} - {{plant.maxHumi}}</td>
+              <td>{{plant.minHumi}}% - {{plant.maxHumi}}%</td>
             </tr>
           </table>
     </div>

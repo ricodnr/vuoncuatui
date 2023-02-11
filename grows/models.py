@@ -12,7 +12,8 @@ class Tata(models.Model):
     maxTemp = models.BigIntegerField()
     minHumi = models.BigIntegerField()
     maxHumi = models.BigIntegerField()
-    avatar = ImageField(upload_to='media/img/',null=True,blank=True)
+    avatar = ImageField(upload_to='img/',null=True,blank=True)
+    fintime = models.CharField(max_length=10, null=True, blank=True)
     
     def __str__(self):
         return self.plant

@@ -8,7 +8,8 @@
       "minTemp": "26",
       "maxTemp": "29",
       "minHumi": "65",
-      "maxHumi": "85"
+      "maxHumi": "85",
+      "fintime": "3 months"
     }
   },
   {
@@ -20,7 +21,8 @@
       "minTemp": "25",
       "maxTemp": "30",
       "minHumi": "85",
-      "maxHumi": "90"
+      "maxHumi": "90",
+      "fintime": "2.5 months"
     }
   },
   {
@@ -32,7 +34,8 @@
       "minTemp": "16",
       "maxTemp": "18",
       "minHumi": "85",
-      "maxHumi": "95"
+      "maxHumi": "95",
+      "fintime": "2 months"
     }
   },
   {
@@ -44,7 +47,8 @@
       "minTemp": "25",
       "maxTemp": "30",
       "minHumi": "60",
-      "maxHumi": "70"
+      "maxHumi": "70",
+      "fintime": "1.5 months"
     }
   },
   {
@@ -56,7 +60,8 @@
       "minTemp": "18",
       "maxTemp": "24",
       "minHumi": "60",
-      "maxHumi": "70"
+      "maxHumi": "70",
+      "fintime": "Seasonal"
     }
   },
   {
@@ -68,7 +73,8 @@
       "minTemp": "20",
       "maxTemp": "30",
       "minHumi": "40",
-      "maxHumi": "70"
+      "maxHumi": "70",
+      "fintime": "Seasonal"
     }
   },
   {
@@ -80,7 +86,8 @@
       "minTemp": "18",
       "maxTemp": "24",
       "minHumi": "60",
-      "maxHumi": "70"
+      "maxHumi": "70",
+      "fintime": "Seasonal"
     }
   },
   {
@@ -92,7 +99,8 @@
       "minTemp": "15",
       "maxTemp": "22",
       "minHumi": "40",
-      "maxHumi": "50"
+      "maxHumi": "50",
+      "fintime": "Non-bloom"
     }
   },
   {
@@ -104,7 +112,8 @@
       "minTemp": "18",
       "maxTemp": "21",
       "minHumi": "40",
-      "maxHumi": "50"
+      "maxHumi": "50",
+      "fintime": "Seasonal"
     }
   },
   {
@@ -116,7 +125,8 @@
       "minTemp": "20",
       "maxTemp": "32",
       "minHumi": "70",
-      "maxHumi": "90"
+      "maxHumi": "90",
+      "fintime": "2 months"
     }
   },
   {
@@ -128,7 +138,8 @@
       "minTemp": "21",
       "maxTemp": "29",
       "minHumi": "60",
-      "maxHumi": "80"
+      "maxHumi": "80",
+      "fintime": "2.5 months"
     }
   },
   {
@@ -140,7 +151,138 @@
       "minTemp": "14",
       "maxTemp": "26",
       "minHumi": "30",
-      "maxHumi": "50"
+      "maxHumi": "50",
+      "fintime": "Perennial"
+    }
+  },
+  {
+    "model": "grows.Tata",
+    "pk": 13,
+    "fields": {
+      "plant": "blueberry",
+      "name": "Blueberry",
+      "minTemp": "20",
+      "maxTemp": "26",
+      "minHumi": "70",
+      "maxHumi": "85",
+      "fintime": "Perennial"
+    }
+  },
+  {
+    "model": "grows.Tata",
+    "pk": 14,
+    "fields": {
+      "plant": "grapevine",
+      "name": "Grapevine",
+      "minTemp": "25",
+      "maxTemp": "30",
+      "minHumi": "60",
+      "maxHumi": "70",
+      "fintime": "Perennial"
+    }
+  },
+  {
+    "model": "grows.Tata",
+    "pk": 15,
+    "fields": {
+      "plant": "durian",
+      "name": "Durian",
+      "minTemp": "23",
+      "maxTemp": "33",
+      "minHumi": "75",
+      "maxHumi": "80",
+      "fintime": "Perennial"
+    }
+  },
+  {
+    "model": "grows.Tata",
+    "pk": 16,
+    "fields": {
+      "plant": "strawberry",
+      "name": "Strawberry",
+      "minTemp": "18",
+      "maxTemp": "28",
+      "minHumi": "60",
+      "maxHumi": "85",
+      "fintime": "2.5 months"
+    }
+  },
+  {
+    "model": "grows.Tata",
+    "pk": 17,
+    "fields": {
+      "plant": "mango",
+      "name": "Mango",
+      "minTemp": "24",
+      "maxTemp": "40",
+      "minHumi": "50",
+      "maxHumi": "80",
+      "fintime": "Perennial"
+    }
+  },
+  {
+    "model": "grows.Tata",
+    "pk": 18,
+    "fields": {
+      "plant": "mangosteen",
+      "name": "Mangosteen",
+      "minTemp": "25",
+      "maxTemp": "35",
+      "minHumi": "65",
+      "maxHumi": "85",
+      "fintime": "Perennial"
+    }
+  },
+  {
+    "model": "grows.Tata",
+    "pk": 19,
+    "fields": {
+      "plant": "cabbage",
+      "name": "Cabbage",
+      "minTemp": "12",
+      "maxTemp": "24",
+      "minHumi": "60",
+      "maxHumi": "90",
+      "fintime": "2 months"
+    }
+  },
+  {
+    "model": "grows.Tata",
+    "pk": 20,
+    "fields": {
+      "plant": "carrot",
+      "name": "Carrot",
+      "minTemp": "5",
+      "maxTemp": "24",
+      "minHumi": "80",
+      "maxHumi": "90",
+      "fintime": "3.5 months"
+    }
+  },
+  {
+    "model": "grows.Tata",
+    "pk": 21,
+    "fields": {
+      "plant": "cucumber",
+      "name": "Cucumber",
+      "minTemp": "20",
+      "maxTemp": "30",
+      "minHumi": "70",
+      "maxHumi": "90",
+      "fintime": "3 months"
+    }
+  },
+  {
+    "model": "grows.Tata",
+    "pk": 22,
+    "fields": {
+      "plant": "garlic",
+      "name": "Garlic",
+      "minTemp": "5",
+      "maxTemp": "25",
+      "minHumi": "30",
+      "maxHumi": "80",
+      "fintime": "8 months"
     }
   }
 ]

@@ -22,3 +22,4 @@ urlpatterns = [
     
 ]
 handler404 = "grows.views.page_not_found_view"
+handler500 = 'grows.views.custom_error_view'

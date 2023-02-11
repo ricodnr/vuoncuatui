@@ -1,12 +1,22 @@
-tomato--26 29--65 85--Tomato
-pepper--25 30--85 90--Pepper
-onion--16 18--85 95--Onion
-roses--25 30--60 70--Rose
-lilac--18 24--60 70--Lilac
-orchid--20 30--40 70--Orchid
-ivy--18 24--60 70--Ivy
-ferns--15 22--40 50--Fern
-peppermint--18 21--40 50--Peppermint
-gourd--20 32--70 90--Gourd
-watermelon--21 29--60 80--Watermelon
-dragonfruit--14 26--30 50--Dragon fruit
+tomato--26 29--65 85--Tomato--3 months
+pepper--25 30--85 90--Pepper--2.5 months
+onion--16 18--85 95--Onion--2 months
+roses--25 30--60 70--Rose--1.5 months
+lilac--18 24--60 70--Lilac--Seasonal
+orchid--20 30--40 70--Orchid--Seasonal
+ivy--18 24--60 70--Ivy--Seasonal
+ferns--15 22--40 50--Fern--Non-bloom
+peppermint--18 21--40 50--Peppermint--Seasonal
+gourd--20 32--70 90--Gourd--2 months
+watermelon--21 29--60 80--Watermelon--2.5 months
+dragonfruit--14 26--30 50--Dragon fruit--Perennial
+blueberry--20 26--70 85--Blueberry--Perennial
+grapevine--25 30--60 70--Grapevine--Perennial
+durian--23 33--75 80--Durian--Perennial
+strawberry--18 28--60 85--Strawberry--2.5 months
+mango--24 40--50 80--Mango--Perennial
+mangosteen--25 35--65 85--Mangosteen--Perennial
+cabbage--12 24--60 90--Cabbage--2 months
+carrot--5 24--80 90--Carrot--3.5 months
+cucumber--20 30--70 90--Cucumber--3 months
+garlic--5 25--30 80--Garlic--8 months

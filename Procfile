@@ -1,0 +1,1 @@
+web: gunicorn djp.wsgi --log-file -

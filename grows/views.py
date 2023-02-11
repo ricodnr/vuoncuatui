@@ -10,7 +10,7 @@ from django.db.models import Q
 
 class HomePageView(ListView):
     model = Tata
-    template_name = 'base.html'
+    template_name = 'homepage.html'
     
     def get_queryset(self):
         q = self.request.GET.get('q')
@@ -49,7 +49,7 @@ class ResultView(ListView):
 
     def get_queryset(self):
         object_list = Tata.objects.filter(
-            Q(maxTemp__gte=self.temp),Q(minTemp__lte=self.temp))
+            Q(maxTemp__gte=self.temp),Q(minTemp__lte=self.temp),Q(maxHumi__gte=self.humidity),Q(minHumi__lte=self.humidity))
         return object_list
     
     def get_context_data(self,*args, **kwargs):
@@ -64,3 +64,6 @@ from django.shortcuts import render
 
 def page_not_found_view(request, exception):
     return render(request, '404.html', status=404)
+
+def custom_error_view(request):
+    return render(request, '500.html', status=500)

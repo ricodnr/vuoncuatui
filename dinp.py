@@ -25,7 +25,8 @@ for i in tl:
       "minTemp": "{minTemp}",
       "maxTemp": "{maxTemp}",
       "minHumi": "{minHumi}",
-      "maxHumi": "{maxHumi}"
+      "maxHumi": "{maxHumi}",
+      "fintime": "{i[4]}"
     }}
   }}'''
     if c != len(tl):
