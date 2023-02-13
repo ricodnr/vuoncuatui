@@ -12,6 +12,7 @@
     </tr>
 </table>
 <br />
+<p>You should grow:</p>
 {%for plant in object_list%}
 
     <div class="card">
@@ -19,8 +20,7 @@
             <table>
                 <tr>
                     <td>
-                        <img src="{% get_static_prefix %}{{ plant.plant }}_thumbnail.jpg" >
-                        
+                        <img src="{% get_static_prefix %}{{ plant.plant }}_thumbnail.jpg" >  
                     </td>
                     <td><h3>&nbsp&nbsp{{plant.name}}</h3></td>
                 </tr>
@@ -29,21 +29,14 @@
     <div class="card-body">
         <table>
             <tr>
-              <th></th>
-              <th>&nbsp</th>
-              <th>Tolerance</th>
-            </tr>
-            <tr>
               <th>Temperature: &nbsp</th>
               <td> </td>
               <td>{{plant.minTemp}}*C - {{plant.maxTemp}}*C &nbsp&nbsp&nbsp&nbsp</td>
-              <th>Harvest in:  &nbsp</th>
-              <td>{{plant.fintime}}</td>
-            </tr>
-            <tr>
               <th>Humidity:</th>
               <td></td>
-              <td>{{plant.minHumi}}% - {{plant.maxHumi}}%</td>
+              <td>{{plant.minHumi}}% - {{plant.maxHumi}}% &nbsp&nbsp&nbsp&nbsp</td>
+              <th>Harvest in:  &nbsp</th>
+              <td>{{plant.fintime}}</td>
             </tr>
           </table>
     </div>
